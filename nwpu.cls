@@ -20,17 +20,21 @@
 \RequirePackage{ifthen}
 \RequirePackage{calc}
 \RequirePackage{titletoc}
-\RequirePackage{times}
-\RequirePackage{mathptmx}
 \RequirePackage[normalem]{ulem}
-%\RequirePackage{color}
+\RequirePackage{metalogo}
+\RequirePackage{hyperref}
+\RequirePackage{fontspec}
+\RequirePackage{xeCJK}
+
+%%Chinese fonts
+\setmainfont{Times New Roman}
+\setCJKmonofont{SimSun}% 设置缺省中文字体
+\setCJKmainfont[BoldFont=SimHei,ItalicFont=KaiTi_GB2312]{SimSun} 
+
 
 % 页边距设置
 \geometry{paperwidth=210mm,paperheight=297mm,left=2.5cm,right=2.5cm,top=2.54cm,bottom=2.54cm}%
-%\paperwidth=210mm
-%\paperheight=297mm
-%\textwidth=160mm
-%\textheight=246.2mm
+
 \topmargin=-10.4mm%
 \headheight=17pt%
 \footskip=8mm%
